@@ -8,7 +8,6 @@ This project is a Python script that monitors the balance and activity of coins 
 - Monitors incoming coin activity.
 - Displays information in a human-readable timestamp format.
 - Handles API rate limits and errors gracefully.
-- Shows a loading animation when no new activities are detected.
 
 ## Prerequisites
 
