@@ -23,3 +23,4 @@ This project is a Python script that monitors the balance and activity of coins 
 
 1. Clone this repository or download the `script.py` file.
 2. Ensure you have an `address.txt` file containing the coin addresses you want to monitor, with one address per line.
+3. Replace api here in the script with your API key. You can get apikey from https://api.blockberry.one/
