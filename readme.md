@@ -25,5 +25,5 @@ This project is a Python script that monitors the balance and activity of coins 
 3. Ensure you check the config.json and add your fav coin.
 4. Replace api here in the script with your API key. You can get apikey from https://api.blockberry.one/
 
-
+git clone https://github.com/xdindan/sui-activity.git
 python3 main.py
