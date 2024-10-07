@@ -13,7 +13,6 @@ headers = {
     "x-api-key": "api here"
 }
 
-# Function to get balance
 def get_balance(address, coins_to_monitor):
     url = url_balance_template.format(address)
     response = requests.get(url, headers=headers)
