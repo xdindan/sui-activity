@@ -9,7 +9,7 @@ url_balance_template = "https://api.blockberry.one/sui/v1/accounts/{}/balance"
 url_activity_template = "https://api.blockberry.one/sui/v1/accounts/{}/activity"
 headers = {
     "accept": "*/*",
-    "x-api-key": "RotoL7sLD1b9YS70IqAgvFFXPnzPsy"
+    "x-api-key": "paste your api key here"
 }
 
 def get_balance(address, coins_to_monitor):
