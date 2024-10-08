@@ -9,7 +9,7 @@ url_balance_template = "https://api.blockberry.one/sui/v1/accounts/{}/balance"
 url_activity_template = "https://api.blockberry.one/sui/v1/accounts/{}/activity"
 headers = {
     "accept": "*/*",
-    "x-api-key": "paste your api key here"
+    "x-api-key": "paste api here"
 }
 
 def get_balance(address, coins_to_monitor):
@@ -105,12 +105,9 @@ def main():
 
                                 print(f"{formatted_time} - {shorten_address(address)} - {symbol} masuk = {amount} - BALANCE {balance_formatted}")
                                 previous_timestamps.add(timestamp)
-
-            if not any_activity_found:
-                print("Tidak ada aktivitas baru. Memeriksa lagi...")
-            
-            time.sleep(1)
-
+                                time.sleep(1)
+                        
+    
     except KeyboardInterrupt:
         print("Script interrupted by user. Exiting...")
     except Exception as e:
